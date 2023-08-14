@@ -18,3 +18,28 @@ function Celsiustofahrenheit(celsius) {
     return fahrenheit
 }
 Celsiustofahrenheit(60)
+
+
+//Ejem
+let booleano = false
+if (booleano == true) {
+    console.log("soy verdadero");
+
+}else{
+    console.log("No eres sincero");
+}
+
+let numero = 23
+if (numero == 23) {
+    console.log("Eres un 23");    
+} else if(numero ==21){
+    console.log("Eres un 21");
+}
+else{
+    console.log("No eres nada:");
+}
+
+for (let i = 1; i < 10; i++)
+{
+    console.log(i);
+}
