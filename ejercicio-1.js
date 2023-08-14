@@ -38,8 +38,13 @@ if (numero == 23) {
 else{
     console.log("No eres nada:");
 }
-
+//FOR
 for (let i = 1; i < 10; i++)
 {
     console.log(i);
 }
+
+let arreglo = ["Mariana","pepito","santiago","camper"]
+console.log(arreglo[2]);
+arreglo.push("lands")
+console.log(arreglo);
