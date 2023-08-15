@@ -1,11 +1,18 @@
-//---------------------------
-//Tarea en clase 
-//---------------------------
+let numerito = 2
 
-//Desarrollado por: Yael Mauricio Cano Palacio
 
-let array = [2,4,5,6,7,8,9,10]
+switch (numerito) {
+    case 1:
+        console.log("soy un uno");
+        break;
 
-function (params) {
-    
+    case 2:
+        console.log("Soy un dos");
+        break;
+    case 3 :
+        console.log("Soy un tres");
+        break;
+
+    default:
+        console.log("No es un numero");
 }
